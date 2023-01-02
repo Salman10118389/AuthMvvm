@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "461558869177",
+    "project_id": "authmvvm-11ad4",
+    "storage_bucket": "authmvvm-11ad4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461558869177:android:643bfdee0f82dff3767f68",
+        "android_client_info": {
+          "package_name": "com.example.authmvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461558869177-l0ilj4o9rm3fredo4idmsgotfaqgfeem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.authmvvm",
+            "certificate_hash": "50794e330911a167afe322b5f6d28ddc2cb31f76"
+          }
+        },
+        {
+          "client_id": "461558869177-5t6vf8ggp78uva2kdsskj3lbfcbo4mtf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOff93FCSpTFzRU91jXPXiCeiD_t-pDB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461558869177-5t6vf8ggp78uva2kdsskj3lbfcbo4mtf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
