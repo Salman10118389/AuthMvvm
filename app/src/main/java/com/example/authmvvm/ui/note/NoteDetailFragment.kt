@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.authmvvm.R
 import com.example.authmvvm.databinding.FragmentNoteDetailBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class NoteDetailFragment : Fragment() {
     val TAG: String = "NoteDetailFragment"
     private lateinit var binding: FragmentNoteDetailBinding

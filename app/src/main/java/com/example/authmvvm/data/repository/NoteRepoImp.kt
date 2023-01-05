@@ -1,4 +1,11 @@
 package com.example.authmvvm.data.repository
 
-class NoteRepoImp {
+import com.example.authmvvm.data.model.Note
+
+class NoteRepoImp: NoteRepository {
+
+    override fun getNotes(): List<Note> {
+        //Get data From Firebase
+        return super.getNotes()
+    }
 }
