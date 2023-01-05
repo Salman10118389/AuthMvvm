@@ -6,6 +6,6 @@ class NoteRepoImp: NoteRepository {
 
     override fun getNotes(): List<Note> {
         //Get data From Firebase
-        return super.getNotes()
+        return arrayListOf()
     }
 }
