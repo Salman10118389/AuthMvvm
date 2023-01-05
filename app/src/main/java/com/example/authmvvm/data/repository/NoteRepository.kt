@@ -1,5 +1,7 @@
 package com.example.authmvvm.data.repository
 
+import com.example.authmvvm.data.model.Note
+
 interface NoteRepository {
-    fun getNotes
+    fun getNotes(): List<Note>
 }
