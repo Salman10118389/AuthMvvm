@@ -6,10 +6,14 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.authmvvm.data.model.Note
 import com.example.authmvvm.data.repository.NoteRepository
-
-class NoteViewModel(
+import com.google.firebase.firestore.FirebaseFirestore
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
+@HiltViewModel
+class NoteViewModel @Inject constructor(
     val repo: NoteRepository
 ): ViewModel(){
+
 
     //Ambil smeua data notes
     val _notes = MutableLiveData<List<Note>>()
